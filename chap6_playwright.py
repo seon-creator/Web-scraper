@@ -41,3 +41,6 @@ for i in range(3):
     page.keyboard.down("End")
     # 스크롤 후 내용 로드를 위해 잠시 기다립니다.
     time.sleep(3)
+
+# Playwright 세션을 종료합니다.
+p.stop()
